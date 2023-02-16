@@ -28,3 +28,15 @@ import uuid
 import pdb
 import shelve
 ```
+
+Get the date and time. This is mainly for usage in unique file names that save script output.
+```
+from datetime import datetime
+now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+```
+
+Open a shelve in a with context
+```
+with shelve.open(save_path) as ms:
+    pass
+```
