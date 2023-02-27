@@ -18,7 +18,7 @@ if __name__ == '__main__':
 Assemble the team.
 ```
 import numpy as np
-import maptlotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import matplotlib as mpl
 import pandas as pd
 import seaborn as sns
