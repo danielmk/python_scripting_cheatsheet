@@ -2,7 +2,7 @@
 Patterns I use all the time in Python scripts. 
 
 
-```
+```python
 # Create a path that leads to the 'data' directory located wherever the executed script is located. Create the 'data' directory if it does not exist.
 dirname = os.path.dirname(__file__)
 results_dir = os.path.join(dirname, 'data')
