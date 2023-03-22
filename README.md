@@ -11,13 +11,13 @@ if not os.path.isdir(results_dir):
 ```
 
 
-```
+```python
 # Execute code only when it is run in a script context (as opposed to a module context).
 if __name__ == '__main__':
     pass
 ```
 
-```
+```python
 # Assemble the team.
 import numpy as np
 import matplotlib.pyplot as plt
@@ -31,19 +31,19 @@ import pdb
 import shelve
 ```
 
-```
+```python
 # Get the date and time. This is mainly for usage in unique file names that save script output.
 from datetime import datetime
 now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 ```
 
-```
+```python
 # Open a shelve in a with context
 with shelve.open(save_path) as ms:
     pass
 ```
 
-```
+```python
 # Get all file names in results_dir that contain 'pattern'
 file_names = [x for x in os.listdir(results_dir) if 'pattern' in x]
 ```
