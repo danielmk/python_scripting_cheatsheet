@@ -47,3 +47,8 @@ with shelve.open(save_path) as ms:
 # Get all file names in results_dir that contain 'pattern'
 file_names = [x for x in os.listdir(results_dir) if 'pattern' in x]
 ```
+
+```python
+OIST official color theme for figures
+['#C70019', '#0D6B9A', '#EE9A20', '#6389A5', '#EA521C', '#8A963F']
+```
