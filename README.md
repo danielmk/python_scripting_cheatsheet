@@ -52,3 +52,8 @@ file_names = [x for x in os.listdir(results_dir) if 'pattern' in x]
 # OIST official color theme for figures
 ['#C70019', '#0D6B9A', '#EE9A20', '#6389A5', '#EA521C', '#8A963F']
 ```
+
+```python
+# Create figure with panels organized in r rows and c columns
+fig, ax = plt.subplots(r, c)
+```
