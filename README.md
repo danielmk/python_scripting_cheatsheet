@@ -57,3 +57,8 @@ file_names = [x for x in os.listdir(results_dir) if 'pattern' in x]
 # Create figure with panels organized in r rows and c columns
 fig, ax = plt.subplots(r, c)
 ```
+
+```python
+# Make font in .svg actual font
+plt.rcParams['svg.fonttype'] = 'none'
+```
