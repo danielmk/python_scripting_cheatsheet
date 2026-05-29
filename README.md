@@ -61,4 +61,5 @@ fig, ax = plt.subplots(r, c)
 ```python
 # Make font in .svg actual font
 plt.rcParams['svg.fonttype'] = 'none'
+plt.rcParams['font.size'] = 18
 ```
